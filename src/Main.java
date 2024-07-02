@@ -1,27 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main{
+import java.sql.Array;
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
-        CarMethod a = new BMW("Black", 240);
-        Vehicle aa = new BMW("blue", 300);
-        Lada b = new Lada("red",180);
-        Nissan c = new Nissan("white", 220);
-        a.drive();
-        a.pickUpSpeed();
-        a.gasoline();
-        aa.speed();
-        aa.display();
-        System.out.println("_______________________________________________");
-        b.drive();
-        b.pickUpSpeed();
-        b.gasoline();
-        b.speed();
-        b.display();
-        System.out.println("______________________________________________");
-        c.drive();
-        c.pickUpSpeed();
-        c.gasoline();
-        c.speed();
-        c.display();
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+        int[] data = {1,2,3,4,5};
+        for (int i = 0; i < input-1 ; i++) {
+
+        }
+        if (input  <6 && input >0) {
+
+            System.out.println("true");
+
+        }else
+            System.out.println("false");
+
         }
     }
+

@@ -1,5 +1,5 @@
 package SingleLinkedlist;
-public class LinkedlistExamples {
+public class LinkedListExamples {
 
     Node head;
 
@@ -24,7 +24,7 @@ public class LinkedlistExamples {
 
     public static void main(String[] args) {
 
-        LinkedlistExamples list = new LinkedlistExamples();
+        LinkedListExamples list = new LinkedListExamples();
 
         list.head = new Node(243);
         Node second = new Node(412);
